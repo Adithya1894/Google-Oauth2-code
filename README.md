@@ -10,5 +10,15 @@
 
 5. Open http://127.0.0.1:9090/login in any of the browsers to see the working project, where It enables you to login with your google credentials.
 
+# Manually Creating a Dataset/Table in bigquery.
+ 
+1. The file Bqdataset.go allows you to manually create dataset and table in Google Bigquery. 
+
+2. Edit the lines 16,25 and 40 in Bqdataset.go to update names of your project, dataset and table.
+
+3. Use command go run Bqdataset.go to build and run this project.
+
+4. In your Bigquery console, changes in dataset, table can be seen.
+
 
 
