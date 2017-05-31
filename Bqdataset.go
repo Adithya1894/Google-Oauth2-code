@@ -13,7 +13,7 @@ func main() {
 	ctx := context.Background()
 
 	// Sets your Google Cloud Platform project ID.
-	projectID := "parkingnavigator-92124"
+	projectID := "Your Project Name"
 
 	// Creates a client.
 	client, err := bigquery.NewClient(ctx, projectID)
@@ -22,7 +22,7 @@ func main() {
 	}
 
 	// Sets the name for the new dataset.
-	datasetName := "IUPUI2"
+	datasetName := "Your Dataset Name"
 
 	// Creates a Dataset instance.
 	dataset := client.Dataset(datasetName)
@@ -37,7 +37,7 @@ func main() {
 	fmt.Println("Dataset created!")
 
 	// Creates the new BigQuery dataset.
-	err = dataset.Table("Test2").Create(ctx, schema1)
+	err = dataset.Table("Your Table Name").Create(ctx, schema1)
 	if err != nil {
 		log.Fatalf("failed %v", err)
 	}
