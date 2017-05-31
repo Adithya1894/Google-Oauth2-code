@@ -31,8 +31,8 @@ func getLoginURL(state string) string {
 func init() {
 
 	conf = &oauth2.Config{
-		ClientID:     "398841061251-pt2cuiuq7qn2vfpb84s892eeo7n0mgcq.apps.googleusercontent.com",
-		ClientSecret: "kIK14aTHyKbW0ddrp15n8rL7",
+		ClientID:     "Your Client Id",
+		ClientSecret: "Your Client Secret Key",
 		RedirectURL:  "http://127.0.0.1:9090/auth",
 		Scopes: []string{
 			"https://www.googleapis.com/auth/userinfo.email"},
