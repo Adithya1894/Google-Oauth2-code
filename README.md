@@ -14,11 +14,13 @@
  
 1. The file Bqdataset.go allows you to manually create dataset and table in Google Bigquery. 
 
-2. Edit the lines 16,25 and 40 in Bqdataset.go to update names of your project, dataset and table.
+2. You can use the documentation in https://developers.google.com/ad-exchange/rtb/open-bidder/google-app-guide to create your own project.
 
-3. Use command go run Bqdataset.go to build and run this project.
+3. Edit the lines 16,25 and 40 in Bqdataset.go to update names of your project, dataset and table.
 
-4. In your Bigquery console, changes in dataset, table can be seen.
+4. Use command go run Bqdataset.go to build and run this project.
+
+5. In your Bigquery console, changes in dataset, table can be seen.
 
 
 
