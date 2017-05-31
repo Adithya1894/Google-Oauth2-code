@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<link rel="icon"
+      type="image/png"
+      href="/img/favicon.ico" />
+<html>
+  <head>
+      Hi
+  </head>
+  <body>
+    {{if .seen}}
+        <p>Welcome back  '{{  .email }}'.</p>
+    {{else}}
+        <p>Welcome  '{{ .email }}'.</p>
+    {{end}}
+  </body>
+</html>
